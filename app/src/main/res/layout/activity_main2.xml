@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:outlineAmbientShadowColor="#272727"
+    android:outlineSpotShadowColor="#0C0C0C"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/uploadBtn"
+        android:layout_width="150dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="340dp"
+        android:text="UPLOAD"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

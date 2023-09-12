@@ -1,0 +1,20 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Project1"
+include ':app'
+
+def opencvsdk='/home/r00tus3r/Downloads/OpenCV-android-sdk'
+include ':opencv'
+project(':opencv').projectDir = new File(opencvsdk + '/sdk')
